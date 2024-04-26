@@ -1,24 +1,28 @@
 {
-    "products": [
-      {
-        "id": "1",
-        "title": "Produto de Teste"
-      },
-      {
-        "id": "bf64",
-        "title": "Copo de plástico"
-      },
-      {
-        "id": "f904",
-        "title": "Prato"
-      },
-      {
-        "id": "2353",
-        "title": "Caneta colorida"
-      },
-      {
-        "id": "c4bf",
-        "title": "Computador"
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": "1",
+      "title": "Produto de Teste"
+    },
+    {
+      "id": "bf64",
+      "title": "Copo de plástico"
+    },
+    {
+      "id": "f904",
+      "title": "Prato"
+    },
+    {
+      "id": "2353",
+      "title": "Caneta colorida"
+    },
+    {
+      "id": "c4bf",
+      "title": "Computador"
+    },
+    {
+      "id": "f4bd",
+      "title": "Caixa de lápis"
+    }
+  ]
+}
