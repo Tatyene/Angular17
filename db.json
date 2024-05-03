@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "Produto de Teste"
+      "title": "Produto de Teste",
+      "id": "1"
     },
     {
       "id": "bf64",
@@ -23,6 +23,10 @@
     {
       "id": "f4bd",
       "title": "Caixa de lápis"
+    },
+    {
+      "id": "6cfe",
+      "title": "Óculos de sol"
     }
   ]
 }
