@@ -1,16 +1,8 @@
 {
   "products": [
     {
-      "title": "Produto de Teste",
-      "id": "1"
-    },
-    {
       "id": "bf64",
       "title": "Copo de plástico"
-    },
-    {
-      "title": "Pratos",
-      "id": "f904"
     },
     {
       "title": "Canetas coloridas",
