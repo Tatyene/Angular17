@@ -1,11 +1,11 @@
 {
   "products": [
     {
-      "id": "bf64",
-      "title": "Copo de plástico"
+      "title": "Copo de plástico",
+      "id": "bf64"
     },
     {
-      "title": "Canetas coloridas",
+      "title": "Caneta colorida",
       "id": "2353"
     },
     {
@@ -15,6 +15,10 @@
     {
       "id": "6cfe",
       "title": "Óculos de sol"
+    },
+    {
+      "id": "9b42",
+      "title": "Computadores"
     }
   ]
 }
