@@ -6,17 +6,21 @@ import { Product } from '../../shared/interfaces/product';
 import { ProductsService } from '../../shared/service/products.service';
 import { ConfirmationDialogService } from '../../shared/service/confirmation-dialog.service';
 import { filter } from 'rxjs/operators';
+import { NoItensComponent } from './components/no-itens/no-itens.component';
 
 @Component({
   selector: 'app-list',
   standalone: true,
-  imports: [CardComponent, RouterLink, MatButtonModule],
+  imports: [CardComponent, RouterLink, MatButtonModule, NoItensComponent],
   templateUrl: './list.component.html',
   styleUrl: './list.component.css'
 })
 export class ListComponent {
 
-  products = signal<Product[]>(inject(ActivatedRoute).snapshot.data['products']);
+  products = signal<Product[]>(
+     inject(ActivatedRoute).snapshot.data['products']
+    //[]
+  );
   productService = inject(ProductsService);
   router = inject(Router);
   confirmationDialogService = inject(ConfirmationDialogService);
