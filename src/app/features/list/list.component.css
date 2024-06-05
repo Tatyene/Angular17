@@ -3,3 +3,7 @@
     justify-content: end;
     padding: 16px 0;
 }
+.item_container {
+    display: block;
+    margin-bottom: 16px;
+}
